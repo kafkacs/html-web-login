@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="mainstyle.css">
+</head>
+
+<body class="maincover">
+    
+    <button class="btn">click to rotate</button>
+    <input type="text" id="textlocation" width="200px" height="100px">
+
+    <div class="login" id="logform">
+        <div class="mainform">
+              <div class="logheader">
+                  <img class="lockpic" src="login lock.jpg" width="50px" height="50px"> 
+                  <p>Login Info</p>
+              </div>
+                 
+             <form  method="post">
+                <div class="logbody">
+                      <input type="text" class="logtext" placeholder="UserName..." required>
+                      <br/>
+                      <input type="password" class="logtext" placeholder="password..." required>
+                      <br/>
+                      <input type="submit" class="submitbtn" id="subbtn" name="" value="Login">
+                      <br/>
+                      <button class="submitbtn" id="clrbtn">Clear</button>
+                    </div>
+               </form>
+
+               <div class="logfooter">
+                  <p>Don't Have a Account? <a href="sighinup.html"> Sighin Up</a></p>
+                 <p>Forgot You're Password? <a href="resetpassword.html">ResetPassword</a></p>
+               </div>
+        </div>
+    </div>
+
+    <script src="mainjs.js"></script>
+
+</body>
+</html>

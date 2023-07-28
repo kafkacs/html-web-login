@@ -1,0 +1,101 @@
+.maincover
+{
+    background-image: url(16692.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    color: white;
+}
+.logbody
+{
+    position: relative;
+    top: 30px;
+    left: 30%;
+
+}
+.logtext
+{
+    height: 30px;
+    width: 150px;
+    border-radius: 20px;
+    margin: 0 0 5px 0;
+    padding: 0 0 0 20px;
+}
+.submitbtn
+{
+    margin: 0 0 5px 0;
+    height: 30px;
+    width: 170px;
+    background-color: black;
+    color: white;
+    position: relative;
+    border-radius: 20px;
+    
+
+}
+.mainform{
+    position: relative;
+}
+.logfooter
+{
+    position: relative;
+    left: 10%;
+    top: 100px;
+    font-size: 15px;
+}
+
+.login
+{
+    position: absolute;
+    width: 400px;
+    height: 500px;
+    left: 40%;
+    top: 100px;
+    background-color: rgb(3, 30, 66);
+    
+    border: 5px;
+    border-radius: 20px;
+    border-color: rgb(255, 255, 255);
+    border-style: solid;
+    
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+
+    transition: transform 2s ease-in-out;
+    
+}
+.lockpic
+{   
+    position: relative;
+    left: 10%;
+    border-radius: 50%;
+    margin: 5px 0 5px 0 ;
+    
+}
+.logheader
+{
+    position: relative;
+    font-size: 30px;
+    left: 130px;
+}
+
+.btn
+{
+    width: 200px;
+    height: 100px;
+
+    background-color: rgb(3, 30, 66);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 20px;
+    border: 5px;
+    border-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    border-style: solid;
+    color: white;
+    position: absolute;
+    top: 5%;
+    
+}
+
